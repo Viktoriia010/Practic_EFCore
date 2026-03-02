@@ -18,6 +18,8 @@ public class AcademyDbContext:DbContext
     public DbSet<Subject> Subjects { get; set; }
     public DbSet<Curators> Curators { get; set; }
 
+    public DbSet<Grade> Grades { get; set; }
+
 
     public AcademyDbContext(DbContextOptions options) : base(options)
     {
